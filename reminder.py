@@ -29,7 +29,7 @@ async def checkTime():
     now = datetime.now()
 
     current_time = now.strftime("%H:%M:%S")
-    print("Current Time =", current_time)
+    print("Current time is: ", current_time)
 
     if(current_time == '06:00:00'):
         await ctx.send("@everyone its semantle time!"
