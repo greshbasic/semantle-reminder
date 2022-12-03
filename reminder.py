@@ -32,7 +32,7 @@ async def checkTime():
     print("Current time is: " + current_time)
 
     if(current_time == '06:00:00'):
-        await ctx.send("@everyone its semantle time!")
+        print("@everyone its semantle time!")
 
 
 checkTime()
