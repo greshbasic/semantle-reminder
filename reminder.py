@@ -23,7 +23,7 @@ version 2
 from datetime import datetime
 import threading
 
-async def checkTime():
+def checkTime():
     threading.Timer(1, checkTime).start()
 
     now = datetime.now()
