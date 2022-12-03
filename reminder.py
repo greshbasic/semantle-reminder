@@ -8,8 +8,8 @@ delta_t=y-x
 secs=delta_t.total_seconds()
 
 async def semantle_reminder():
-    await ctx.send("hello world")
+    await ctx.send("@everyone time for semantle!")
     
 
-t = Timer(secs, hello_world)
+t = Timer(secs, semantle_reminder)
 t.start()
